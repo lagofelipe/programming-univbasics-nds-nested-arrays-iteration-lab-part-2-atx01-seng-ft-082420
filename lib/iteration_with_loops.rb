@@ -14,8 +14,9 @@ if src[row_index][element_index] < lowest_temperature_element
   lowest_temperature_element = src [row_index][element_index]
   end
 element_index += 1
-end
 result_array.push(lowest_temperature_element)
+end
+ # result_array.push(lowest_temperature_element)
 row_index += 1
   end
 result_array
