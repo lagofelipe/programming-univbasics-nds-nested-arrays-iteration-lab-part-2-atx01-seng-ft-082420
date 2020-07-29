@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
     element_index = 0
     lowest_temperature_element = 0
     while element_index < src [row_index].count do
-if src[row_index][element_index] < lowest_temperature_element
+if src[row_index][element_index] > lowest_temperature_element
   lowest_temperature_element = src [row_index][element_index]
   end
 element_index += 1
